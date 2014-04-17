@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'aboutme/index'
+
+  get 'about/me'
+
+  get 'about/index'
+
   get 'hello/index'
 
   get 'welcome/index'
